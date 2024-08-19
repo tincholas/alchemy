@@ -2,12 +2,12 @@
 using System.Collections;
 using System.Linq;
 using System.Collections.Generic;
-using UnityEngine.UI;
+//using UnityEngine.UI;
 using System;
 
 public class ShapesManager : MonoBehaviour
 {
-    public Text DebugText, ScoreText;
+    //public Text DebugText, ScoreText;
     public bool ShowDebugInfo = false;
     //candy graphics taken from http://opengameart.org/content/candy-pack-1
     public List<LevelInfo> levels = new List<LevelInfo>();
